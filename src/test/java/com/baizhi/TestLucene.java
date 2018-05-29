@@ -19,7 +19,7 @@ public class TestLucene {
     //创建索引
     @Test
     public void testCreateLucene() throws IOException {
-        //
+        //cd
         //索引库路径
         Directory directory = FSDirectory.open(new File("d:/index"));
         //分词器配置
