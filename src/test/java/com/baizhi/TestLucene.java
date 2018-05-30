@@ -21,6 +21,7 @@ public class TestLucene {
     public void testCreateLucene() throws IOException {
         //cd123
         //索引库路径
+        System.out.println("demo1");
         Directory directory = FSDirectory.open(new File("d:/index"));
         //分词器配置
         IndexWriterConfig config = new IndexWriterConfig(Version.LUCENE_44, new StandardAnalyzer(Version.LUCENE_44));
